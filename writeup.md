@@ -1,18 +1,18 @@
-#3BOX-MODEL
-##3Display Properties
+##BOX-MODEL
+###Display Properties
 #### Inline, Inline-Block, Block, None
 
 ## Every element is a rectangular box on a page and it may have some width,
  height, padding, borders, and margins
 
-##Inline
+Inline
 ### This will take space according to the content it wraps.
 ####
 p {
     display: inline;
   }
 
-##Inline-Block
+Inline-Block
 ### Span is an inline-level element, but can be displayed as a
  block-level element.
 ####
@@ -20,7 +20,7 @@ span{
     display: inline-block;
   }
 
-##Block
+Block
 ### This will allows elements to behave as a block-level element 
 accepting all the box-model properties.
 ####
@@ -28,7 +28,7 @@ accepting all the box-model properties.
     display: block;
   }
 
-##None
+None
 ###This value will hide the element on the page.
 ####
 {
